@@ -66,8 +66,8 @@ It allows users to view courses filtered by levels and includes features like Do
 
 5. (Optional) Build and run using Docker:
    ```bash
-   docker build -t flask-app .
-   docker run -p 5000:5000 flask-app
+   docker build -t os_final .
+   docker run -p 5005:5000 --env-file .env os_final
    ```
 
 ## Features
